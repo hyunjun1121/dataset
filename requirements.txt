@@ -1,0 +1,25 @@
+# Core dependencies for dataset processing and translation
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Progress and utility libraries
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# For better performance on CUDA
+bitsandbytes>=0.41.0
+
+# Additional utilities
+datasets>=2.13.0
+huggingface-hub>=0.15.0
+
+# For potential memory optimization
+psutil>=5.9.0
+
+# Excel file processing
+pandas>=1.5.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
